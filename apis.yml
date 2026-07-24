@@ -1,7 +1,26 @@
 aid: bjgoodwill
-name: bjgoodwill
-description: bjgoodwill is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bjgoodwill.png
+name: Beijing Goodwill (bjgoodwill)
+description: Beijing Goodwill Information Technology Co., Ltd. (北京嘉和美康信息技术有限公司,
+  brand 嘉和美康 / Goodwill E-Health) is a Chinese healthcare-IT company founded in 2005 and
+  publicly listed on the Shanghai Stock Exchange STAR Market (科创板, code 688246). It builds
+  electronic medical record (EMR) systems, hospital information platforms, clinical data
+  centers, smart-healthcare products, internet-medicine platforms, and medical research /
+  big-data solutions used across hospitals and clinics in more than thirty provinces and
+  autonomous regions of China. It was surfaced as a portfolio company of Qiming Venture
+  Partners and added to the API Evangelist network. No public developer portal, API, or
+  OpenAPI surface was found during enrichment; this profile is identity-only.
 url: https://raw.githubusercontent.com/api-evangelist/bjgoodwill/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Health IT
+- Electronic Medical Records
+- EMR
+- Hospital Information Systems
+- Medical Big Data
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bjgoodwill-domain-security.yml
 - type: Website
-  url: https://bjgoodwill.com
+  url: https://www.bjgoodwill.com
+- type: Blog
+  url: https://www.bjgoodwill.com/news.aspx
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
